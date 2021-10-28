@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/menuBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="56dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_baseline_menu_24" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:gravity="center_vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical">
+
+                        <RelativeLayout
+                            android:layout_width="110dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="40dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/app_logo" />
+
+                        </RelativeLayout>
+
+
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="56dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/carttxt000"
+                            android:layout_width="17dp"
+                            android:layout_height="17dp"
+                            android:layout_marginStart="12dp"
+                            android:paddingBottom="4dp"
+                            app:cardBackgroundColor="@color/purple_700"
+                            app:cardCornerRadius="100dp">
+
+                            <TextView
+                                android:id="@+id/carttxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/roboto_regular"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/white"
+                                android:textSize="8sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <ImageView
+                            android:id="@+id/cartIcon"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_outline_shopping_cart_24" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <EditText
+                    android:id="@+id/searchEdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="Search vegetables &amp; fruits"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:importantForAutofill="auto"
+                    android:inputType="textAutoComplete"
+                    android:drawableEnd="@drawable/ic_baseline_search_24"
+                   android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="14dp"> </EditText>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:id="@+id/category_view"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:visibility="gone">
+
+               
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/content_home" />
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    app:cardElevation="10dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="150dp">
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorEnabled="true"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1" />
+</androidx.cardview.widget.CardView>
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/tab_layout"/>
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_pager"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+</RelativeLayout>

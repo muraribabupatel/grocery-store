@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable-v24/nav_item_drawable.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/button_bg_black_round.xml" value="0.2203125" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/button_bg_white_round.xml" value="0.2203125" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/ic_home.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/ic_outline_shopping_cart_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/orange.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/drawable/otp_bg.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/font/font.xml" value="0.234375" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_about.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_add_to_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_address.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_contact_us.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_landing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_log_out.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_main2.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/app_bar_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/content_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/fragment_fruits.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/fragment_vegetables.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/image_slider.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/item_list_fruits.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/item_list_vegetable.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/layout/nav_header_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/menu/activity_home2_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/murar/AndroidStudioProjects/GroceryMart/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/murar/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/activity_list_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

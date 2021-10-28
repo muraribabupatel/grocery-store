@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/app_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+       android:layout_marginStart="@dimen/dim_20"
+        android:layout_marginEnd="@dimen/dim_20"
+        android:background="@drawable/orange"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/name_txt"
+
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidth="@dimen/dim_1">
+
+            <EditText
+                android:id="@+id/nameEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:inputType="textPersonName"
+                android:letterSpacing="0.025"
+                android:singleLine="true"
+                android:padding="15dp"
+
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/dim_18" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/email_txt"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidth="@dimen/dim_1">
+
+            <EditText
+                android:id="@+id/emailEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:inputType="textEmailAddress"
+                android:letterSpacing="0.025"
+                android:maxLength="60"
+
+
+                android:padding="15dp"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="10dp"
+            android:hint="@string/mobile_txt"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidth="@dimen/dim_1">
+
+            <EditText
+                android:id="@+id/mobileEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:letterSpacing="0.025"
+                android:maxLength="10"
+
+
+                android:padding="15dp"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="16sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="10dp"
+            android:hint="@string/password_txt"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidth="@dimen/dim_1">
+
+            <EditText
+                android:id="@+id/passEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:letterSpacing="0.025"
+                android:maxLength="60"
+
+
+                android:padding="15dp"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="10dp"
+            android:hint="@string/cpassword_txt"
+            android:textColorHint="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidth="@dimen/dim_1">
+
+            <EditText
+                android:id="@+id/confirm_passEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:letterSpacing="0.025"
+                android:maxLength="60"
+
+
+                android:padding="15dp"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_bg_white_round" />
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:letterSpacing="0.025"
+                android:text="@string/submit"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:letterSpacing="0.025"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/i_have_an_already_account_login"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

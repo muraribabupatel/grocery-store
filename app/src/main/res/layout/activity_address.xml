@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddressActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/purple_500">
+
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/back_arrow"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:letterSpacing="0.025"
+            android:text="Add Address"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addAddress_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:letterSpacing="0.025"
+                android:text="@string/address_information"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/otp_bg"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/flat_house_no_building_shop_address"
+                android:letterSpacing="0.025"
+                android:maxLines="5"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/landmarkEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_15"
+                android:background="@drawable/otp_bg"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/landmark"
+                android:letterSpacing="0.025"
+                android:maxLines="3"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_15"
+                android:background="@drawable/otp_bg"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+                android:letterSpacing="0.025"
+                android:maxLength="10"
+                android:padding="15dp"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/pincode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:hint=""
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/black"
+                android:visibility="gone" />
+
+            <!--        <EditText-->
+            <!--            android:id="@+id/address"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginLeft="20dp"-->
+            <!--            android:layout_marginRight="20dp"-->
+            <!--            android:backgroundTint="@color/black"-->
+            <!--            android:fontFamily="@font/roboto_regular"-->
+            <!--            android:hint="Enter Address"-->
+            <!--            android:textColor="@color/black"-->
+            <!--            android:textColorHint="@color/gray"-->
+            <!--            android:textSize="@dimen/_10ssp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/otp_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.025"
+                    android:text="@string/locality"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#808080" />
+
+                <Spinner
+                    android:id="@+id/areaSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:letterSpacing="0.025"
+                    android:paddingEnd="@dimen/dim_20"
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/planets_array"
+                    android:theme="@style/SpinnerTheme" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/otp_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.025"
+                    android:text="City*"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#808080" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center_vertical"
+                    android:letterSpacing="0.025"
+                    android:paddingLeft="20dp"
+                    android:text="@string/vishakhapatnam"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/otp_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
+                    android:letterSpacing="0.025"
+                    android:text="@string/state"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#808080" />
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center_vertical"
+                    android:letterSpacing="0.025"
+                    android:paddingLeft="20dp"
+                    android:text="@string/andhra_pradesh"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/addAddress_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg_white_round"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:letterSpacing="0.025"
+        android:text="@string/add_new_address"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>

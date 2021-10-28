@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+
+    <dimen name="list_padding_vertical_small">8dp</dimen>
+    <dimen name="fab_margin_default">16dp</dimen>
+
+    <dimen name="editor_size">35dp</dimen>
+    <dimen name="normal_margin">8dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation_press">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="statusbar_size">24dp</dimen>
+
+    <dimen name="cardview_toolbar_spacer">16dp</dimen>
+
+    <dimen name="toolbar_double_height">112dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="appbar_header_height">256dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="cardElevation">4dp</dimen>
+    <dimen name="cardview_horizontal_padding">6dp</dimen>
+    <dimen name="cardview_vertical_padding">2dp</dimen>
+
+    <dimen name="larger_text_size">22sp</dimen>
+    <dimen name="larger_padding">15dp</dimen>
+    <dimen name="width">800dp</dimen>
+
+    <dimen name="autoresize_min_width">200dp</dimen>
+    <dimen name="autoresize_max_text_size">1200sp</dimen>
+    <dimen name="autoresize_min_text_size">16sp</dimen>
+
+    <dimen name="dim_0">0dp</dimen>
+    <dimen name="dim_1">1dp</dimen>
+    <dimen name="dim_2">2dp</dimen>
+    <dimen name="dim_3">3dp</dimen>
+    <dimen name="dim_4">4dp</dimen>
+    <dimen name="dim_5">5dp</dimen>
+    <dimen name="dim_6">6dp</dimen>
+    <dimen name="dim_7">7dp</dimen>
+    <dimen name="dim_8">8dp</dimen>
+    <dimen name="dim_9">9dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_11">11dp</dimen>
+    <dimen name="dim_12">12dp</dimen>
+    <dimen name="dim_13">12dp</dimen>
+    <dimen name="dim_14">13dp</dimen>
+    <dimen name="dim_15">15dp</dimen>
+    <dimen name="dim_16">16dp</dimen>
+    <dimen name="dim_17">16dp</dimen>
+    <dimen name="dim_18">16dp</dimen>
+    <dimen name="dim_19">19dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="dim_21">21dp</dimen>
+    <dimen name="dim_22">22dp</dimen>
+    <dimen name="dim_23">23dp</dimen>
+    <dimen name="dim_24">24dp</dimen>
+    <dimen name="dim_25">25dp</dimen>
+    <dimen name="dim_26">26dp</dimen>
+    <dimen name="dim_27">27dp</dimen>
+    <dimen name="dim_28">28dp</dimen>
+    <dimen name="dim_29">29dp</dimen>
+    <dimen name="dim_30">30dp</dimen>
+    <dimen name="dim_31">31dp</dimen>
+    <dimen name="dim_32">32dp</dimen>
+    <dimen name="dim_33">33dp</dimen>
+    <dimen name="dim_34">34dp</dimen>
+    <dimen name="dim_35">35dp</dimen>
+    <dimen name="dim_36">36dp</dimen>
+    <dimen name="dim_37">37dp</dimen>
+    <dimen name="dim_38">38dp</dimen>
+    <dimen name="dim_39">39dp</dimen>
+    <dimen name="dim_40">40dp</dimen>
+    <dimen name="dim_41">41dp</dimen>
+    <dimen name="dim_42">42dp</dimen>
+    <dimen name="dim_43">43dp</dimen>
+    <dimen name="dim_44">44dp</dimen>
+    <dimen name="dim_45">45dp</dimen>
+    <dimen name="dim_46">46dp</dimen>
+    <dimen name="dim_47">47dp</dimen>
+    <dimen name="dim_48">48dp</dimen>
+    <dimen name="dim_49">49dp</dimen>
+    <dimen name="dim_50">50dp</dimen>
+    <dimen name="dim_51">51dp</dimen>
+    <dimen name="dim_52">52dp</dimen>
+    <dimen name="dim_53">53dp</dimen>
+    <dimen name="dim_54">54dp</dimen>
+    <dimen name="dim_55">55dp</dimen>
+    <dimen name="dim_56">56dp</dimen>
+    <dimen name="dim_57">57dp</dimen>
+    <dimen name="dim_58">58dp</dimen>
+    <dimen name="dim_59">59dp</dimen>
+    <dimen name="dim_60">60dp</dimen>
+    <dimen name="dim_61">61dp</dimen>
+    <dimen name="dim_62">62dp</dimen>
+    <dimen name="dim_63">63dp</dimen>
+    <dimen name="dim_64">64dp</dimen>
+    <dimen name="dim_65">65dp</dimen>
+    <dimen name="dim_66">66dp</dimen>
+    <dimen name="dim_67">67dp</dimen>
+    <dimen name="dim_68">68dp</dimen>
+    <dimen name="dim_69">69dp</dimen>
+    <dimen name="dim_70">70dp</dimen>
+    <dimen name="dim_71">71dp</dimen>
+    <dimen name="dim_72">72dp</dimen>
+    <dimen name="dim_73">73dp</dimen>
+    <dimen name="dim_74">74dp</dimen>
+    <dimen name="dim_75">75dp</dimen>
+    <dimen name="dim_76">76dp</dimen>
+    <dimen name="dim_77">77dp</dimen>
+    <dimen name="dim_78">78dp</dimen>
+    <dimen name="dim_79">79dp</dimen>
+    <dimen name="dim_80">80dp</dimen>
+    <dimen name="dim_81">81dp</dimen>
+    <dimen name="dim_82">82dp</dimen>
+    <dimen name="dim_83">83dp</dimen>
+    <dimen name="dim_84">84dp</dimen>
+    <dimen name="dim_85">85dp</dimen>
+    <dimen name="dim_86">86dp</dimen>
+    <dimen name="dim_87">87dp</dimen>
+    <dimen name="dim_88">88dp</dimen>
+    <dimen name="dim_89">89dp</dimen>
+    <dimen name="dim_90">90dp</dimen>
+    <dimen name="dim_91">91dp</dimen>
+    <dimen name="dim_92">92dp</dimen>
+    <dimen name="dim_93">93dp</dimen>
+    <dimen name="dim_94">94dp</dimen>
+    <dimen name="dim_95">95dp</dimen>
+    <dimen name="dim_96">96dp</dimen>
+    <dimen name="dim_97">97dp</dimen>
+    <dimen name="dim_98">98dp</dimen>
+    <dimen name="dim_99">99dp</dimen>
+    <dimen name="dim_100">100dp</dimen>
+    <dimen name="dim_250">250dp</dimen>
+
+    <dimen name="set_timer_hour_minute_unit_text_size">12pt</dimen>
+    <dimen name="set_timer_spacer_size">20dp</dimen>
+    <dimen name="countdown_timer_text_size">36pt</dimen>
+
+</resources>

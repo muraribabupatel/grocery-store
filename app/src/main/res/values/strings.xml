@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Grocery Mart</string>
+    <string name="register_text">SIGN UP</string>
+    <string name="login_txt">LOGIN</string>
+    <string name="skip_txt">Skip</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">Password</string>
+    <string name="cpassword_txt">Confirm Password</string>
+    <string name="forget_txt">Forget Password?</string>
+    <string name="signin_txt">Sign in</string>
+    <string name="or_txt">Or</string>
+    <string name="facebook_txt">Sign in with Facebook</string>
+    <string name="twiiter_txt">Sign in with Twitter</string>
+    <string name="dontacc_txt">Don\'t have an account? Sign Up</string>
+    <string name="name_txt">Name</string>
+    <string name="mobile_txt">Mobile</string>
+    <string name="already_text">Already Signed Up? Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="i_have_an_already_account_login">I have an already account Login</string>
+    <string name="submit">Submit</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="categories">Categories</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">My Profile</string>
+    <string name="menu_slideshow">My Cart</string>
+    <string name="menu_tools">Order History</string>
+    <string name="menu_share">Address Book</string>
+    <string name="Rs">\u20B9</string> <!--hindi rs-->
+    <string name="rs">\u20A8</string>
+    <string name="menu_send">Favourites</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_contect">Contact Us</string>
+    <string name="menu_shareapp">Share the App</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="cart_text">Add to Cart</string>
+    <string name="checkout_txt">Checkout</string>
+    <string name="add_tofav">Add to Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">Add</string>
+    <string name="we_have_sent_an_code_on_your_email">We have sent an Code on your Email</string>
+    <string name="enter_your_valid_email">Enter Your Valid Email</string>
+    <string name="verification">Reset Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_login">back to login</string>
+    <string name="add_to_cart">My Cart</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="profile">Profile</string>
+    <string name="phone">Phone:</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="your_email">Your Email</string>
+    <string name="email">Email:</string>
+    <string name="your_name">Your Name</string>
+    <string name="name">Name:</string>
+    <string name="my_profile">My Profile</string>
+    <string name="add_to_cart_e">Add to Cart</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="hey">Hey,</string>
+    <string name="i_have_no_account_signup">I have no account Signup</string>
+    <string name="address_information">Address Information</string>
+    <string name="flat_house_no_building_shop_address">Flat, House no., Building, Shop Address</string>
+    <string name="landmark">Landmark</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="locality">Locality*</string>
+    <string name="vishakhapatnam">Vishakhapatnam</string>
+    <string name="state">State*</string>
+    <string name="andhra_pradesh">Andhra Pradesh</string>
+    <string name="add_new_address">Add New Address</string>
+
+
+        <string-array name="planets_array">
+            <item>Select Locality</item>
+            <item>PM Palem</item>
+            <item>Dwaraka Nagar</item>
+            <item>MVP Colony</item>
+            <item>Railway New Colony</item>
+            <item>Maddilapalem</item>
+            <item>Madhurawada</item>
+            <item>Rushikonda</item>
+            <item>Vizianagaram</item>
+        </string-array>
+
+
+</resources>

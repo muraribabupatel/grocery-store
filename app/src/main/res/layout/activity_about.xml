@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fcb365"
+    tools:context=".AboutActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/purple_500">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:letterSpacing="0.025"
+            android:text="@string/about_us"
+          android:textStyle="bold"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/app_logo" />
+
+
+            <TextView
+                android:id="@+id/textA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.025"
+
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.025"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textB"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.025"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textC"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.025"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textD"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.025"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
